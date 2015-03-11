@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ler.c>
+#include "leitura.c"
 
 int main(){
     char nome [100];
     printf("Introduza o ficheiro a ler: ");
     scanf("%s",nome);
-    lerFich(nome);
+    printf("Conta: %d",lerFich(nome));
 }
 

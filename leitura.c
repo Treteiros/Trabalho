@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <clientes.c>
-#include <produtos.c>
+#include "leitura.h"
 
 int lerFich(char * nomeFicheiro){
 	FILE *in;
-	int a,i=0;
+	int i=0;
     char ficheiro [100];
     char linha [100];
-    char produtos[200000][100];
 	in = fopen(nomeFicheiro, "r" );
       if( in == NULL )
        {
@@ -20,6 +18,7 @@ int lerFich(char * nomeFicheiro){
     	conta++;
     }
      fclose( in );
+     return conta;
 }
 
 
