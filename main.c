@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-ds
-
 int main(){
 	FILE *in;
 	int a,i=0;
