@@ -5,7 +5,7 @@
 
 
 int main(){
-	FILE *in;lolada
+	FILE *in;
 	int a,i=0;
     char ficheiro [100];
     char linha [100];
